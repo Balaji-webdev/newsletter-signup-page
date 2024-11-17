@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Young+Serif&display=swap');
+
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  background-color: hsl(235, 18%, 26%);
+
+
+}
+
+.container {
+  height: 480px;
+  width: 730px;
+  background-color: white;
+  position: relative;
+  top: 110px;
+  left: 440px;
+  border-radius: 14px;
+  overflow: hidden;
+
+}
+
+.container .image svg {
+
+  height: 450px;
+  border-radius: 13px;
+  position: relative;
+  left: 360px;
+  top: 14px;
+
+}
+
+.content h1 {
+  position: relative;
+  right: -30px;
+  top: -400px;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.content p {
+  position: relative;
+  right: -30px;
+  top: -400px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+.content2 {
+  position: relative;
+  top: -390px;
+  left: 30px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.content2 svg {
+  background-color: coral;
+  border-radius: 50%;
+  width: 23px;
+  height: 23px;
+  position: relative;
+  top: 10px;
+}
+
+.content2 span {
+  position: relative;
+  top: -13px;
+  left: 28px;
+  padding-left: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+
+}
+
+.email {
+  position: relative;
+  top: -370px;
+  left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.email label {
+  padding-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 13px;
+}
+
+.email p {
+  position: relative;
+  left: 170px;
+  bottom: 25px;
+  font-size: 13px;
+  color: coral;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+.email input {
+  margin-top: -10px;
+  width: 40%;
+  height: 40px;
+  border-color: coral;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 13px;
+  padding-left: 8px;
+
+}
+
+.email input::placeholder {
+  padding-left: 7px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 13px;
+
+}
+
+.btn {
+  position: relative;
+  top: -360px;
+  left: 30px;
+}
+
+.btn button {
+  height: 50px;
+  width: 42%;
+  background-color: hsl(234, 29%, 20%);
+  color: white;
+  border: none;
+  border-radius: 7px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.btn button:hover {
+  background-color: coral;
+}
+
+.card {
+  height: 350px;
+  width: 380px;
+  background-color: white;
+  position: relative;
+  top: 100px;
+  left: 570px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.tick-image svg {
+  background-color: coral;
+  border-radius: 50%;
+  width: 49px;
+  height: 49px;
+  position: relative;
+  top: 40px;
+  left: 30px;
+}
+
+.success-content h1 {
+  margin-top: 47px;
+  margin-left: 40px;
+  font-size: 40px;
+  color: hsl(234, 29%, 20%);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.success-content p {
+  margin-left: 40px;
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.btn-success {
+  position: relative;
+  left: 40px;
+  top: 20px;
+}
+
+.btn-success button {
+  height: 45px;
+  width: 75%;
+  background-color: hsl(234, 29%, 20%);
+  color: white;
+  border: none;
+  border-radius: 7px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-success button:hover {
+  background-color: coral;
+}
+
+.attribution {
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  top: 140px;
+}
+
+.success-content span {
+  font-weight: 700;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
